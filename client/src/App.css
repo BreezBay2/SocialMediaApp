@@ -1,0 +1,41 @@
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+img.profile-photo {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+div.post {
+    padding: 20px;
+}
+
+div.post div.user-info {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: #555;
+}
